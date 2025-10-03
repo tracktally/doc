@@ -49,13 +49,24 @@ fediverse = ""
 
 [[menu.main]]
 name = "Home"
-url = "https://tracktally.github.io"
+url = "/"
+weight = 10
+[menu.main.params]
+icon = "fa fa-house"
+
+[[menu.main]]
+name = "App"
+url = "https://tracktally.github.io/"
 weight = 20
+[menu.main.params]
+icon = "fa fa-mobile-screen"
 
 # [[menu.main]]
-# name = "Home"
-# pageRef = "/"
-# weight = 10
+# name = "Source"
+# url = "https://github.com/tracktally"
+# weight = 30
+# [menu.main.params]
+# icon = "fa fa-brands fa-github"
 
 # [services.rss]
 # limit = 42

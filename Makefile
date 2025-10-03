@@ -11,7 +11,7 @@ init:
 
 .PHONY:
 dev:
-	cd $(PROJ_ROOT) && $(BIN) serve
+	cd $(PROJ_ROOT) && $(BIN) server --disableFastRender
 
 .PHONY:
 build:
