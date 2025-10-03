@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - master
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+
+name: build-website
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Build webapp
+      run: |
+        make build
+        cd hugo
+        ls -al
+
+    - name: commit to github pages
+      uses: peaceiris/actions-gh-pages@v4
+      # If you're changing the branch from main,
+      # also change the `master` in `refs/heads/master`
+      # below accordingly.
+      if: ${{ github.ref == 'refs/heads/master' }}
+      with:
+        deploy_key: ${{ secrets.PAGES_SSH_KEY }}
+        publish_dir: ./hugo/public/
+        force_orphan: true
