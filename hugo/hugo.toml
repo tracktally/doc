@@ -1,0 +1,70 @@
+# Basic config
+baseURL = "https://example.com"
+theme = "hugo-simple"
+defaultContentLanguage = "en"
+languageCode = "en"                # zh-Hans
+title = "Track Tally."
+copyright = "© 2025 Track Tally"
+mainSections = ["blog"]
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# https://github.com/gohugoio/hugo/issues/12152
+capitalizeListTitles = false
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+blog = "/:slugorcontentbasename/"
+tags = "/blog/:slug"
+
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "catppuccin-mocha"
+
+[params]
+title = "Track Tally."
+description = "Track Tally App"
+favicon = "images/favicon.png"
+dateFormat = "2006-01-02"
+hideMadeWithLine = true
+hideRSSLink = true
+
+[params.author]
+name = "Andrin Bertschi"
+email = ""
+fediverse = ""
+
+[[menu.main]]
+name = "Home"
+url = "https://tracktally.github.io"
+weight = 20
+
+# [[menu.main]]
+# name = "Home"
+# pageRef = "/"
+# weight = 10
+
+# [services.rss]
+# limit = 42
+
+[pagination]
+pagerSize = 16
+
+[outputs]
+# Generate RSS for home only.
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]

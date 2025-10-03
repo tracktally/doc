@@ -1,0 +1,17 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+
+{{/* Hugo processing width */}}
+{{ $resizeWidth := .Get "resizeWidth" | default "1200" }}
+
+{{/* Browser display width (optional) */}}
+{{ $displayWidth := .Get "displayWidth" }}
+
+{{ $img := .Page.Resources.GetMatch $src }}
+{{ with $img }}
+  {{ $scaled := .Resize (printf "%sx" $resizeWidth) }}
+  <img src="{{ $scaled.RelPermalink }}" alt="{{ $alt }}"
+       width="{{ $displayWidth }}">
+{{ else }}
+  <p style="color:red;">Image not found: {{ $src }}</p>
+{{ end }}
