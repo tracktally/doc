@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://example.com"
+baseURL = "https://tracktally.github.io/doc/"
 theme = "hugo-simple"
 defaultContentLanguage = "en"
 languageCode = "en"                # zh-Hans
