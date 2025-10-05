@@ -5,7 +5,9 @@ description = "Track Tally"
 +++
 
 Track Tally is best used as an App installed on your home screen.
-Follow the steps below to install
+Follow the steps below to install.
+
+To get started, browse [https://tracktally.github.io/](https://tracktally.github.io/) in your phone browser.
 
 - [Install on Android](#install-on-android)
 - [Install on iPhone](#install-on-iphone)
