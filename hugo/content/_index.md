@@ -91,7 +91,9 @@ Do your set number of repetitions **every single day**.
 Keep your streak alive and growing (think *Duolingo*, but for reps).
 
 ### Why do this?
-Life’s full of things you don’t feel like doing. Knocking out push-ups when you’re tired trains your brain to stop making excuses. Strong body, stronger habits; and those habits spill into work and personal goals.
+Life’s full of things you don’t feel like doing.
+Knocking out push-ups when you’re tired trains your brain to stop making excuses. Strong body, stronger habits; and those stronger habits eventually 
+spill into everything from work to personal goals.
 
 ### How it works
 1. **Install** the app to your home screen (button above).
