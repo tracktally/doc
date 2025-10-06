@@ -1,7 +1,7 @@
 +++
-title = "Install on Home Screen"
+title = "Track Tally"
 date = "2015-10-03"
-description = "Track Tally"
+description = "Install on Home Screen"
 +++
 
 Track Tally is best used as an App installed on your home screen.
