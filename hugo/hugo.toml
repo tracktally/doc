@@ -4,7 +4,7 @@ theme = "hugo-simple"
 defaultContentLanguage = "en"
 languageCode = "en"                # zh-Hans
 title = "Track Tally."
-copyright = "© 2025 Track Tally"
+# copyright = "© 2025 Track Tally"
 mainSections = ["blog"]
 
 # Generate a nice robots.txt for SEO
@@ -54,12 +54,12 @@ weight = 10
 [menu.main.params]
 icon = "fa fa-house"
 
-[[menu.main]]
-name = "App"
-url = "https://tracktally.github.io/"
-weight = 20
-[menu.main.params]
-icon = "fa fa-mobile-screen"
+# [[menu.main]]
+# name = "App"
+# url = "https://tracktally.github.io/"
+# weight = 20
+# [menu.main.params]
+# icon = "fa fa-mobile-screen"
 
 # [[menu.main]]
 # name = "Source"
