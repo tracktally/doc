@@ -61,12 +61,12 @@ icon = "fa fa-house"
 # [menu.main.params]
 # icon = "fa fa-mobile-screen"
 
-# [[menu.main]]
-# name = "Source"
-# url = "https://github.com/tracktally"
-# weight = 30
-# [menu.main.params]
-# icon = "fa fa-brands fa-github"
+[[menu.main]]
+name = "Source"
+url = "https://github.com/tracktally/challenge"
+weight = 30
+[menu.main.params]
+icon = "fa fa-brands fa-github"
 
 # [services.rss]
 # limit = 42
