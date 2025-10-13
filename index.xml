@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Track Tally.</title>
+    <link>https://tracktally.github.io/doc/</link>
+    <description>Recent content on Track Tally.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tracktally.github.io/doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Track Tally</title>
+      <link>https://tracktally.github.io/doc/install/</link>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://tracktally.github.io/doc/install/</guid>
+      <description>&lt;p&gt;Track Tally is best used as an App installed on your home screen.
+Follow the steps below to install.&lt;/p&gt;
+&lt;p&gt;To get started, browse &lt;a href=&#34;https://tracktally.github.io/&#34;&gt;https://tracktally.github.io/&lt;/a&gt; in your phone browser.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#install-on-android&#34;&gt;Install on Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#install-on-iphone&#34;&gt;Install on iPhone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#join-with-challenge-id&#34;&gt;Join a Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;install-on-android&#34;&gt;Install on Android&lt;/h4&gt;
+&lt;p&gt;Click on the three dots (1) in your browser and choose &amp;ldquo;Add to Home Screen (2)&amp;rdquo;.&lt;/p&gt;
+
+
+
+
+  
+  &lt;img src=&#34;https://tracktally.github.io/doc/install/android-add-to-homescreen_hu_82b6a5cf3e448c0a.png&#34; alt=&#34;Android Add to Home Screen&#34;&gt;
+
+&lt;h4 id=&#34;install-on-iphone&#34;&gt;Install on iPhone&lt;/h4&gt;
+&lt;p&gt;Follow the sequence 1 - 4 below to add the App to your Home Screen.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Track Tally is best used as an App installed on your home screen.
+Follow the steps below to install.</p>
+<p>To get started, browse <a href="https://tracktally.github.io/">https://tracktally.github.io/</a> in your phone browser.</p>
+<ul>
+<li><a href="#install-on-android">Install on Android</a></li>
+<li><a href="#install-on-iphone">Install on iPhone</a></li>
+<li><a href="#join-with-challenge-id">Join a Challenge</a></li>
+</ul>
+<h4 id="install-on-android">Install on Android</h4>
+<p>Click on the three dots (1) in your browser and choose &ldquo;Add to Home Screen (2)&rdquo;.</p>
+
+
+
+
+  
+  <img src="/doc/install/android-add-to-homescreen_hu_82b6a5cf3e448c0a.png" alt="Android Add to Home Screen">
+
+<h4 id="install-on-iphone">Install on iPhone</h4>
+<p>Follow the sequence 1 - 4 below to add the App to your Home Screen.</p>
+<p>
+
+
+
+  
+  <img src="/doc/install/ios-add-to-homescreen1_hu_8dd01e08d39843e4.png" alt="Add to Home Screen">
+
+
+
+
+
+  
+  <img src="/doc/install/ios-add-to-homescreen2_hu_a09c3b44c71adee9.png" alt="Add to Home Screen">
+
+
+
+
+
+  
+  <img src="/doc/install/ios-add-to-homescreen3_hu_8e8fc49d623f87c7.png" alt="Add to Home Screen">
+</p>
+<h4 id="join-with-challenge-id">Join with Challenge ID</h4>
+<p>After having installed the App on your home screen, join a challenge with <em>a Challenge ID</em> or create a new challenge.</p>
+
+
+
+
+  
+  <img src="/doc/install/join_hu_998dcafef61063b0.jpg" alt="Join">
+
+<p><a href="https://tracktally.github.io">Launch the App</a>.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
